@@ -1,0 +1,144 @@
+
+
+@font-face {
+    font-family:'indroid' ;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+body{
+    margin: 0px;
+    font-family: indroid, arial, Arial, Helvetica, sans-serif;
+    background-color: #22E684;
+    margin-bottom: 0px;
+}
+header{
+    padding: 1px;
+    background-image: linear-gradient(to bottom, #17EB3E, #138049);
+}
+.titulo{
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+}
+.titulo > h1, p{
+    color: white;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.281);
+}
+.menu{
+    padding: 1px;
+    background-color: #138049;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.322);
+}
+.menu > a{
+    margin-left: 10px;
+    padding: 2px;
+    text-decoration: none;
+    color: white;   
+}
+
+
+main{
+    background-color: white;
+    padding-top: 1px;
+    margin: 0px 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+    border-radius: 5px;
+}
+
+article > p {
+    text-indent: 20px;
+}
+
+.conteudo{
+    margin: 10px;
+    text-align: justify;
+}
+
+
+.conteudo > p, h2{
+    color: black;
+    text-shadow: none;
+}
+
+.conteudo > h1{
+    color: #0d522f;
+}
+
+.str{
+    color: #0d522f;
+}
+
+.str2{
+    color: black;
+}
+
+.imagem{
+    object-position: right;
+}
+
+a{
+    color: #0d522f;
+    text-decoration: none;
+}
+
+.conteudo > h2{
+    background-image: linear-gradient(to right, #22e6847c, white)
+}
+
+
+.video{
+    background-color: #0d522f;
+    padding: 5px 15px;
+    margin: 0px;
+    
+}
+
+.conteudo2{
+    background-color: #22e684;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: justify;
+
+}
+
+.conteudo2 > h2{
+    background-color: #169e5a;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.conteudo2 > p{
+    color: black;
+    text-shadow: none;
+    margin: 10px 10px;
+    padding: 0;
+
+}
+
+.part1{
+    float: right;
+    margin-right: 100px;
+}
+
+.conteudo3 > p {
+    text-shadow: none;
+    color: black;
+    padding: 3px 10px 30px 10px;
+    text-align: justify;
+    
+}
+
+footer{
+    background-color: #0d522f;
+    color: white ;
+    text-align: center;
+    padding: 10px;
+
+}
+
+footer > p, strong{
+    margin: 0px;
+    color: white;
+}
+    

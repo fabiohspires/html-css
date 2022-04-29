@@ -1,0 +1,109 @@
+Comando básicos do CSS
+
+COMPATIVEL COM ACENTUAÇÃO
+@charset "UTF-8";
+
+CONFIGURAÇÃO GLOBAL
+*{}
+margin 0px
+padding 0px
+
+CRIAR UMA VARIAVEL
+:root{
+	--cor0:#c5edb6;
+	--fonte:
+}
+
+====================================================================================
+CORREÇÃO DE POSIÇÃO / ENFEITES
+width: px; (largura)
+height: px; (altura)
+object-fit: ; (corrigir a posição da foto)
+object-position: ; (corrigir a possição da foto também)
+padding: px, (preenchimento borda interna)
+margin:  ;  (margem)
+border-radius: px;
+box-shadow: 10px 10px 10px black; (andar pro lado, para baixo, espalhar, transparência
+text-shadow: 1px 1px 0px black; (sombra do texto)
+text-indent:  px (criar parágrafo)
+text-decoration: (mudar a decoração do texto sublinhado etc)
+border-style (estilo da borda) solid
+	color (cor)
+	width (largura)
+transition-duration: .3s; (colocar efeito de passar o mouse por cima com delay de cor)
+list-style-position: inside; (corrigir a posição das bolinhas da lisa
+columns: 2  ; (divir as colunas)
+--------------------------------------------------------------------------------------
+MUDANDO FUNDO
+background-color
+-------------------------------------------------------------------------------------
+Degradê
+background-image: linear-gradient(to left, white, blue); to left(para esquerda) to right(para a direita)
+top(començando de cima) to bottom(começando de baixo) de cima pra baixo usar o *{height: 100%;} para configurar a altura
+----------------------------------------------------------------------------------------------
+USAR EM OU PX PARA FONTES
+em ou px
+font-size
+font-weight: ; (peso da fonte) negrito
+font-style: normal (estilo da fonte ítalico)
+text-decoration: underline (sublinhado)
+line-height: 2em; (altura de linha / espaçamento de linhas)
+
+COMANDO RAPIDO DE FONTE:
+font= font-style -> font-weight -> font-size -> font family
+font: italic, bolder, 3em, 'Work Sans', sans-serif;
+
+IMPORTAR FONTE
+@font-face{}
+Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-(opentype)
+            - truetype-(att) (apple advenced typography)
+==========================================================================================
+INDETIFICADORES
+id="" (pode ser usado uma só vez) (em CSS id vira #) h1#principal
+class="" (pode ser usando quantas vezes quiser) (em css vira .) .principal
+<div>
+============================================================================================
+PSEUDO-CLASSES
+:hover{} (passar o mouse por cima muda de cor)
+> represenstação de filho (usado em menus)
+:visited (site já visitado)
+:active (mostrar que algo foi ativado)
+===========================================================================================
+PSEUDO-ELEMENTOS
+::after
+::before
+============================================================================================
+BOX-LEVELS E INLINES-LEVELS   MEXENDO COM CAIXAS APENAS CAIXAS
+		border-width: 10px;
+(borda normal)	background-color: lightgrey;
+            	height: 300px;
+            	width: 300px;
+            	border-width: 10px;
+            	border-style: solid;
+            	border-color: darkslategray;
+
+(borda interna) padding-left: 10px;
+            	padding-right: 10px;
+            	padding-bottom: 10px;
+            	padding-top: 10px;
+
+(margem do objeto)	margin-top: 10px;
+           		margin-right: 10px;
+            		margin-bottom: 10px;
+            		margin-left: 10px;
+
+margin-auto(centralizar uma caixa)
+
+<div> box-level
+<span> inline-level
+==============================================================================================
+GROUPING TAGS (tags de grupo)
+<header> (cabeçalho)
+<main> (conteúdo principal
+<footer> (rodapé)
+<nav> (menu)
+<article> (lugar para colocar conteudo 
+<aside> (paralelo ao conteúdo)

@@ -1,0 +1,45 @@
+	<img src="paisagem-g.png" alt="Foto">
+    <style>
+        img {
+            width: 100%; largura da foto
+            height: 600px; altura da foto
+            object-fit: cover; corrigir a posição da foto
+            object-position: center; corrigir a possição da foto também     
+        }
+    </style>
+=================================================================================================
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+main img {
+    width: 100%;
+}		
+
+
+
+TAMBÉM para trocar de imagem
+<source media="(max-width: 800px)" srcset="imagens/irina-blok-pq.jpg">
+
+colocar display block se a imagems nao centralizar
+==========================================================================================
+RESPONSIVIDADE DE VIDEO
+
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 58%;
+}
+
+div.video > iframe {
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

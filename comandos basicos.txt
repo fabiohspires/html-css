@@ -1,0 +1,128 @@
+Comando básico do VsCode
+
+<H1> E SUAS VARIAÇÕES até H6
+títulos e subtitulos
+
+<P>
+escrever linhas de texto
+
+<br>
+pular linha
+
+<hr>
+cria uma linha
+
+<&#x    ;>
+inserir um emoji
+
+<IMG>
+Colocar imagen
+
+<a>
+link de outra pagina
+
+<link>
+inserir um link também
+
+<ADDRESS>
+Colocar endereço
+
+<Style>
+Estilizar o texto
+
+ENVELOPAR
+Ctrl+shift+P wrap with abbreviation
+
+Achar coisas dentro do VsCode
+Ctrl+espaço
+
+Volatr uma pasta (pasta dentro do arquivo)
+../
+----------------------------------------------------------------------------------
+TAGS
+
+Entre maior e menor <>
+&lt; <
+&gt; >
+
+ÍTALICO
+<em>
+
+MARCA TEXTO
+<mark>
+
+TEXTO EXCLUÍDO
+<del>
+
+TEXTO GRANDE E PEQUENO 
+<small> e (<big> não utilizada mais)
+
+NEGRITO 
+<strong>
+
+ÊNFASE 
+<ins>
+
+SOBRESCRITO elevado a 2
+<sup>
+
+SUBSCRITO
+<sub>
+
+CITAR UM CÓDIGO 
+<code>
+
+Citaçôes ""
+<q>
+
+EXPLICAÇÃO (descrição do conteudo quando passar o mouse por cima)
+<abbr>
+-------------------------------------------------------------------------------
+ORGANIZADOR DE LISTAS
+<ol> 1, a, A, I , i  type=""<start> 1,2,3,4
+<ul> type"" square, circule, disc
+ITENS DA LISTA
+<li>
+-----------------------------------------------------------------------------
+LISTA DE DEFINIÇÕES (tipo dicionario)
+<dl> Lista de definição
+<dt> Termo
+<dd> Definição
+----------------------------------------------------------------------------
+PARAMETROs
+target="_blank" (para abrir outra aba no navegador) 
+		rel="external" (para abrir outra aba no navegador)
+		rel="next" (proxima página)
+		rel="prev" (página anterior)
+		rel="nofollow" (página sem minha obrigação de ser confiável)
+target="_self" (propria página)
+-------------------------------------------------------------------------------
+COLOCANDO ÁUDIO NO NAVEGADOR
+ <audio preload="metadata" autoplay controls loop>
+        <source src="midia/alone.mp3" type="audio/mpeg">
+ </audio>
+====================================================================================
+INSERIR VÍDEO
+ <video width="500px" poster="imagens/Captura de tela 2022-04-17 165651.png" controls>
+        <source src="midia/Meu-Video.mkv" type="video/mkv">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/Meu-Video.ogv" type="video/ogg">
+        <source src="midia/Meu-Video.webm" type="video/webm">
+        <p>Seu navegador não tem suporte para ver este vídeo <a href="midia/meu-video.mp4">Clique aqui para baixar.</a></p>
+    </video>
+OU IMPORTAR UM VÍDEO DO YOUTUBE NO COMPARTILHAR
+
+<p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/epDCjksKMok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+
+
+
+
+
+
+
+
+
+	

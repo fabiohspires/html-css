@@ -61,22 +61,22 @@ Tipos de format()
             - embedded-(opentype)
             - truetype-(att) (apple advenced typography)
 ==========================================================================================
-INDETIFICADORES
+<--INDETIFICADORES-->
 id="" (pode ser usado uma só vez) (em CSS id vira #) h1#principal
 class="" (pode ser usando quantas vezes quiser) (em css vira .) .principal
 <div>
 ============================================================================================
-PSEUDO-CLASSES
+<--PSEUDO-CLASSES-->
 :hover{} (passar o mouse por cima muda de cor)
 > represenstação de filho (usado em menus)
 :visited (site já visitado)
 :active (mostrar que algo foi ativado)
 ===========================================================================================
-PSEUDO-ELEMENTOS
+<--PSEUDO-ELEMENTOS-->
 ::after
 ::before
 ============================================================================================
-BOX-LEVELS E INLINES-LEVELS   MEXENDO COM CAIXAS APENAS CAIXAS
+<--BOX-LEVELS E INLINES-LEVELS   MEXENDO COM CAIXAS APENAS--> CAIXAS
 		border-width: 10px;
 (borda normal)	background-color: lightgrey;
             	height: 300px;
@@ -99,6 +99,12 @@ margin-auto(centralizar uma caixa)
 
 <div> box-level
 <span> inline-level
+
+<--COLOCAR IMAGEM DENTRO DE UMA DIV-->
+background-image: url(imagens/wallpaper001.jpg);
+
+<--COLOCANDO UMA DIV DO LADO DA OUTRA-->
+display: inline-block;
 ==============================================================================================
 GROUPING TAGS (tags de grupo)
 <header> (cabeçalho)

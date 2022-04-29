@@ -43,3 +43,9 @@ div.video > iframe {
     width: 90%;
     height: 90%;
 }
+
+================================================================
+<--COLOCANDO IMAGEN DE FUNDO-->
+background-size: 100px 100px; (tamanho da imagem)
+background-repeat: no-repeat; (repetir a imagem e diferente eixos)
+background-position: center center; (posição da imagem)

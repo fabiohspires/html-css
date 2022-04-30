@@ -46,7 +46,17 @@ div.video > iframe {
 
 ================================================================
 <--COLOCANDO IMAGEN DE FUNDO-->
+
 background-size: 100px 100px; (tamanho da imagem)
 background-repeat: no-repeat; (repetir a imagem e diferente eixos)
 background-position: center center; (posição da imagem / ancoragem)
 background-size: cover; (tamanho da imagem no navegador'cover; auto; contain')
+background-attachment: fixed; (travar a imagem para scrolar)
+
+/* shorthand - background:
+            color > image > position > repeat > {size} > attachment*/
+            
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+===================================================================
+<--CENTRAÇIZANDO IMAGEM / QUALQUER COISA HORIZONTALMENTE-->
+Crir um container para a imagem do fundo e uma id de conteudo para a o objeto a centralizar.  postio relative para o container e postion absolute para o conteudo. após isso, uasr top e left 50% e tambem usar  transform: translate(-50%, -50%);         

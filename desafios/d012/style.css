@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding: 50px 50px 20px 50px;
+}
+
+header > p, a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+article  p {
+    font-size: 3rem;
+    margin: 30px;
+    text-align: justify;
+}
+
+div.bloco1{
+    background-image: url(imagens/background001.jpg);
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+
+#joaninha{
+    background-position: bottom left;
+}
+
+div.bloco2{
+    background-image: url(imagens/background002.jpg);
+    height: 500px;
+    background-attachment: fixed;
+}
+
+#livro{
+    background-position: center center;
+}
+
+.verso > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.096);
+    width: 500px;
+    top: 50%;
+}

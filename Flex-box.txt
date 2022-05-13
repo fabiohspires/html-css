@@ -1,0 +1,64 @@
+FLEXBOX
+----------------------------------------------
+<container>
+    display:flex (os itens ficam lado a lado  usar sempre no container)
+    
+    ========================================================
+    
+    DIREÇÃO DOS ITENS (flex-direction)
+    
+    row: posiciona os itens lado a lado.
+    column: posiciona os itens um embaixo do outro.
+    
+    =========================================================
+    
+    FORMAS DE ALINHAMENTO (justify-content)
+    
+    justify-contant: alinha os itens na mais axis.
+    
+        flex-start: alinha os itens no início do container (padrão)
+        flex-end: alinha os itens no fim do container
+        center: alinha os itens no centro do container
+        space-between: distribui os itens igualmente no container
+        space-around: space-between com margem dos lados
+    
+    align-items: alinha os itens no croos axis
+    
+        stretch: faz com que os itens cresçam igualmente (padrão) (ocupar o tamanho interiro do container)
+        flex-start: alinha os itens no início do container (baseado no croos axis)
+        flex-end: alinha os itens no fim do container
+        flex-center: alinha os itens no centro
+    
+    align-content: alinha as linhas do container verticalmente
+    
+        stretch: faz com que os itens cresçam igualmente (padrão)
+        flex-start: alinha os itens no início do container
+        flex-end: alinha os itens no fim do container
+        center: alinha os itens no centro do container
+        space-between: distribui os itens igualmente no container
+        space-around: space-between com margem dos lados
+
+    Gap, row-gap e column-gap (espaçameto entre as divs com px)
+        gap : 10px (entre as linhas) 30px (entre as colunas)
+    
+    ==========================================================================
+    
+    RESPOSIVIDADE (flex-flow)
+    
+    nowrap: não permite quebra de linha
+    wrap: quebra a linha assim que um dos itens não couber nela
+    wrap-reverse: mesma coisa que o wrap, mas a quenra acontece para a linha de cima
+    Gap, row-gap e column-gap (espaçameto entre as divs com px)
+        gap : 10px (entre as linhas) 30px (entre as colunas)
+</container>
+
+--------------------------------------------------------------------------------------
+
+<div class='cards'>
+    FLEX ITEM
+    
+    flex-item
+        order: define a ordem do elemento no container
+        flex: define o tamnaho do elemento no main-axis baseado no tamanho do container
+        flex-basis: define o tamnaho do elemento baseado no main-axis
+</div>

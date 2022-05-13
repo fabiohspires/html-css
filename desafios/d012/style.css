@@ -27,16 +27,19 @@ article  p {
     text-align: justify;
 }
 
-div.bloco1{
+.img{
     background-image: url(imagens/background001.jpg);
-    height: 800px;
-    width: 100%;
-    background-attachment: fixed;
+
     
 }
 
 #joaninha{
+    background-image: url(imagens/background001.jpg);
     background-position: bottom left;
+}
+
+.verso1{
+
 }
 
 div.bloco2{

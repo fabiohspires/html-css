@@ -72,6 +72,11 @@ class="" (pode ser usando quantas vezes quiser) (em css vira .) .principal
 > represenstação de filho (usado em menus)
 :visited (site já visitado)
 :active (mostrar que algo foi ativado)
+
+:first-child: (selciona o primeiro elemnto filho)
+:last-child: (seleciona o ultimo elemento filho)
+:nth-child(n): (seleciona o n elemento filho0
+
 ===========================================================================================
 <--PSEUDO-ELEMENTOS-->
 ::after

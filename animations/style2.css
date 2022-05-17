@@ -1,0 +1,17 @@
+.arrow{
+    animation: pulando 1s ease-in-out alternate infinite;
+    display: grid;
+    place-items: center;
+    height: 100vw;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+@keyframes pulando {
+    to{
+        transform: translateY(30px);
+    }
+}

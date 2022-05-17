@@ -1,0 +1,74 @@
+TRANSFORM (transformar algo)
+
+Translate (deslocar o objeto)
+
+transform: translateX() 
+transform: translateY()
+transform: translateZ()
+-------------------------------------
+Scale (escala do objeto)
+
+transform: scaleX()
+transform: scaleY()
+transform: scaleZ()
+----------------------------------
+Rotate (rodar o objeto)
+
+transform: rotate (usar deg ou turn)
+------------------------------------
+Skew (inclinar o objeto)
+
+transform: skewX (usar deg)
+transform: skewY
+=================================================================
+
+TRANSITION
+
+transition-property (indeica qual prorpriedade css vai passar por transição)
+---------------------------------------------------------------
+transition-duration (tempo que isso irá ocorrer)
+--------------------------------------------------------------
+transition-delay (tempo de esperar até a transição acontecer)
+--------------------------------------------------------------
+transition-time-function (suavizaçãp da transição)
+
+transition-time-function: ease 
+transition-time-function: ease-in (suaviza no início)
+transition-time-function: ease-in-out (suaviza ambos)
+transition-time-function: ease-out (suaviza no final)
+transition-time-function: estep-end (frame por frame)
+
+transition-time-function: cubic-bezier (personalizado)
+================================================================
+
+KEYFRAMES (animando em momentos chave) (usar somente transform e,opacity)
+
+@keyframes (nome da animação){
+ 0%{
+
+ }
+
+ 100%{
+
+ }
+}
+
+DENTRO DA DIV
+
+animation-name: (nome da animação)
+animando-duration: (duração da animção)
+animando-time-function: (define como uma animação progride)
+animation-delay: (tempo de espera)
+animation-interation-count: (define o numero de vezes que ira repetir a animação)
+animation-direction: (reverse, alternate, alternate-reverse)
+animation-fil-mode (define qual valores irão acontecer antes e ou depois) (fowards, backwards, both)
+animaition-play-state: (define se a animação esta sendo executada ou não) (running, paused)
+
+SHORTHAND
+
+animaition: fly 1.5s linear infinte
+================================================================= 
+OVERFLOW (fazer o objeto sumir)
+
+overflow:hidden
+

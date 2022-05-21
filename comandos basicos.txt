@@ -115,6 +115,14 @@ OU IMPORTAR UM VÍDEO DO YOUTUBE NO COMPARTILHAR
 <p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/epDCjksKMok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
+================================================================================================
+TABELAS
+ <table> (para iniciar a tabela)
+HIERARQUIA DE TABELAS (simples)
+            TABLE = tabela
+                TABLE ROW = lina de tabela (tr)
+                    TABLE HEADER =  cabeçalho de tabela
+                    TABLE DATA =    dadp da tabela (td)
 
 
 
